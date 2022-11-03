@@ -9,7 +9,7 @@ public class EstruturaSequencial {
 		a2 = entrada.nextDouble();
 		System.out.println("Digite a 3° altura");
 		a3 = entrada.nextDouble();
-		
+		entrada.close();
 		System.out.println("Os números digitados foram: " + a1 + ", " + a2 + ", " + a3);
 		
 		

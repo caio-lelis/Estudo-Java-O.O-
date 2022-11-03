@@ -9,7 +9,7 @@ public class EstruturadeDescisão {
 		n1 = entrada.nextInt();
 		System.out.println("Digite outro número inteiro:");
 		n2 = entrada.nextInt();
-		
+		entrada.close();
 		if (n1 > n2) {
 			System.out.println(n1 + " é maior que" + n2);
 			} else {

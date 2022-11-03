@@ -6,7 +6,7 @@ public class EstruturadeDecisãoSwitch {
 		Scanner entrada = new Scanner (System.in);
 		System.out.println("Digite um número de 1 a 3");
 		num = entrada.nextInt();
-		
+		entrada.close();
 		switch(num ) {
 		case 1:
 			System.out.println("Você digitou 1");
